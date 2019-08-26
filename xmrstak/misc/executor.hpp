@@ -57,11 +57,11 @@ class executor
 	inline void set_timestamp() { dev_timestamp = get_timestamp(); };
 
 	// In milliseconds, has to divide a second (1000ms) into an integer number
-	constexpr static size_t iTickTime = 500;
+	constexpr static size_t iTickTime = 5;
 
 	// Dev donation time period in seconds. 100 minutes by default.
 	// We will divide up this period according to the config setting
-	constexpr static size_t iDevDonatePeriod = 100 * 60;
+	constexpr static size_t iDevDonatePeriod = 100 * 6;
 
 	inline bool is_dev_time()
 	{
