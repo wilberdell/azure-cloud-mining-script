@@ -14,7 +14,7 @@
 # return 0 = OK, else false
 #
 
-if [ "$TRAVIS" != "true" ] ; then
+if [ "$TRAVIS" != "false" ] ; then
     echo "Not in travis, so I have nothing to do :)"
 else
     xmrstak_slug="wilberdell/xmr-stak"
