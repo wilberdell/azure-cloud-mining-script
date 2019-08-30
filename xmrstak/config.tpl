@@ -17,7 +17,7 @@ POOLCONF],
 
 /*
  * currency to mine
- * allowed values: 'monero' or 'aeon'
+ * allowed values: 'monero'
  */
 "currency" : "CURRENCY",
 
@@ -63,7 +63,7 @@ POOLCONF],
  * h_print_time - How often, in seconds, should we print a hashrate report if verbose_level is set to 4.
  *                This option has no effect if verbose_level is not 4.
  */
-"h_print_time" : 60,
+"h_print_time" : 300,
 
 /*
  * Manual hardware AES override
