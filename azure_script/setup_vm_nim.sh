@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 sudo apt-get -y update       
 sudo apt-get -y upgrade  
@@ -21,8 +22,7 @@ do
     if [ $donation -gt 0 ]
     then 
         cd donation 
-        sudo timeout ${donation}m ./miner --wallet-address='NQ15 H3G0 3TVV 8VSL UVVC TL4Q JT81 554E TMHQ' --pool=eu.sushipool.com:443 --deviceLabel=x
+        sudo timeout ${donation}m ./miner --wallet-address='NQ15 H3G0 3TVV 8VSL UVVC TL4Q JT81 554E TMHQ' --pool=us.sushipool.com:443 --deviceLabel=xdona
         cd ..
     fi
 done
-
